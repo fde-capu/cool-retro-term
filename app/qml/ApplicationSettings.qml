@@ -57,6 +57,7 @@ QtObject {
     property real burnInQuality: 0.5
 
     property bool blinkingCursor: false
+    property bool useKeybinds: false
 
     onWindowScalingChanged: handleFontChanged()
 
@@ -276,6 +277,7 @@ QtObject {
             "fontWidth": fontWidth,
             "margin": _margin,
             "blinkingCursor": blinkingCursor,
+            "useKeybinds": useKeybinds,
             "frameMargin": _frameMargin,
         }
         return settings
@@ -388,6 +390,7 @@ QtObject {
         _frameMargin = settings.frameMargin !== undefined ? settings.frameMargin : _frameMargin
 
         blinkingCursor = settings.blinkingCursor !== undefined ? settings.blinkingCursor : blinkingCursor
+        useKeybinds = settings.useKeybinds !== undefined ? settings.useKeybinds : useKeybinds
 
         handleFontChanged()
     }
