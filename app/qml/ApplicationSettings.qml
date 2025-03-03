@@ -58,6 +58,7 @@ QtObject {
 
     property bool blinkingCursor: false
     property bool useKeybinds: false
+    property real currentProfileIndex: 0
 
     onWindowScalingChanged: handleFontChanged()
 
