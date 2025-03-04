@@ -196,7 +196,9 @@ ApplicationWindow {
           current -= 1
           current = current < 0 ? appSettings.profilesList.count - 1 : current
           appSettings.currentProfileIndex = current
+          var unload = (appSettings.brightness, appSettings.contrast, appSettings.windowOpacity)
           appSettings.loadProfile(current)
+          appSettings.brightness, appSettings.contrast, appSettings.windowOpacity = unload
         }
     }
     Action {
@@ -209,7 +211,9 @@ ApplicationWindow {
           current += 1
           current = current < appSettings.profilesList.count ? current : 0
           appSettings.currentProfileIndex = current
+          var unload = (appSettings.brightness, appSettings.contrast, appSettings.windowOpacity)
           appSettings.loadProfile(current)
+          appSettings.brightness, appSettings.contrast, appSettings.windowOpacity = unload
         }
     }
     Action {
