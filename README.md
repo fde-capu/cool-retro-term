@@ -2,6 +2,11 @@
 
 ## fde-capu version
 
+Navigate profiles: Shift+Alt+Left / Shift+Alt+Right.
+Transparency: Ctrl+Shift+Up / Ctrl+Shift+Down 
+Contrast: Ctrl+Up / Ctrl+Down.
+Brightness: Alt+Up / Alt+Down.
+
 |> Default Amber|C:\ IBM DOS|$ Default Green|
 |---|---|---|
 |![Default Amber Cool Retro Term](https://user-images.githubusercontent.com/121322/32070717-16708784-ba42-11e7-8572-a8fcc10d7f7d.gif)|![IBM DOS](https://user-images.githubusercontent.com/121322/32070716-16567e5c-ba42-11e7-9e64-ba96dfe9b64d.gif)|![Default Green Cool Retro Term](https://user-images.githubusercontent.com/121322/32070715-163a1c94-ba42-11e7-80bb-41fbf10fc634.gif)|
